@@ -1,0 +1,9 @@
+agm-map {
+  height: 100%;
+}
+
+.locate{
+  position: absolute;
+  right: 1rem;
+  bottom: 8rem;
+}

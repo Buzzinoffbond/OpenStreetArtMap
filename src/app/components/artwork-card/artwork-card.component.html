@@ -1,0 +1,10 @@
+<div class="photos">
+  <div *ngFor="let post of artwork.posts"
+       class="photos_inner"
+       [style.background-image]="'url(' + post.photo_url + ')'">
+  </div>
+</div>
+<div class="container">
+  <h1>{{ artwork.name }}</h1>
+  <p>{{ artwork.description }}</p>
+</div>

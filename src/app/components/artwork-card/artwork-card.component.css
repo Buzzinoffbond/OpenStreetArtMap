@@ -1,0 +1,25 @@
+.photos {
+  position: relative;
+  background: #EEEEEE;
+}
+
+.photos:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 75%;
+}
+
+.photos > .photos_inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  padding: 1rem;
+}
